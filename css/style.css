@@ -1,0 +1,253 @@
+
+body{
+	margin:0 !important;
+	padding:0 !important;
+}
+.navbar-inverse{
+	border:none !important;
+}
+
+
+
+/*a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	font-weight: bold;
+}*/
+
+
+/*去除a标签默认样式*/
+
+
+a:hover{
+	text-decoration:none !important;
+	color:black;
+}
+a:link{
+	text-decoration:none;
+	color:black;
+}
+a:active{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+	color:#666;
+}
+/*动态添加的样式*/
+.liStyle{
+	-webkit-border-bottom:4px solid #262626;
+	-moz-border-bottom:4px solid #262626;
+	-o-border-bottom:4px solid #262626;
+	-ms-border-bottom:4px solid #262626;
+	border-bottom:4px solid #262626;
+}
+.aStyle{
+	color:black !important;
+	-webkit-color:black !important;
+	-moz-color:black !important;
+	-o-color:black !important;
+	-ms-color:black !important;
+}
+/*整体*/
+.ool-wrap{
+	width:100%;
+	background:#f3f5f7;
+
+}
+/*顶部图片*/
+.ool-head{
+	width:100%;
+	font-size:0;
+	/*background:url('../images/machineCabinet.png') no-repeat;
+	background-size:cover;*/
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+	padding:0 !important;
+
+}
+.container-fluid{
+	padding:0 !important;
+}
+/*顶部中间内容盒子*/
+.ool-head-width-box{
+	width:100%;
+	height:100px;
+	margin:0 auto;
+	position:fixed;
+	z-index:9999;
+	background-color:#fff;
+}
+.clear{
+	clear:both;
+}
+
+/*顶部logo图*/
+.ool-logo-img{
+	width:267px;
+	height:40px;
+	margin-left:24%;
+	margin-top:22px;
+	display:inline-block;
+	float:left;
+}
+
+/*导航栏部分*/
+.ool-nav{
+	list-style:none;
+	text-align:center;
+	width:362px;
+	margin-left:60%;
+	margin-top:22px;
+}
+
+
+
+/*ul li部分*/
+.ool-nav>li{
+	margin-left:60px;
+	width:100px;
+	font-size:18px;
+	color:#666; 
+	line-height:56px;
+	float:left;
+}
+
+
+/*扫码开启部分*/
+
+
+.ool-twoBox{
+	width:100%;
+	height:1400px;
+	text-align:center;
+	z-index:90;
+}
+/*产品介绍标题*/
+.ool-product-text{
+	font-size:46px;
+	color:#262626;
+	text-align:center;
+	margin-top:30px;
+}
+
+/*图片盒子部分*/
+.container{
+	margin-top:7.6%;					/*可替换成8%*/
+/*	width:1446px !important;*/			/*去掉即可自适应*/
+}
+.container img{
+	// width:121px;
+	// height:442px;
+	position:relative !important;
+	z-index:999;
+}
+/*.ool-containerImg-box{
+	width:1452px;
+	height:442px;
+}
+.ool-containerImg-box img{
+	width:121px;
+	height:442px;
+}*/
+
+/*我们的优势部分*/
+.ool-advantage-box{
+	width:100%;
+	height:1088px;
+	background:url('../images/footBg.png') no-repeat;
+	background-size:cover;
+	padding-top:173px;
+	position:relative;
+}
+
+/*我们的优势文字部分*/
+.ool-advantage-text{
+	font-size:46px;
+	color:#262626;
+	text-align:center;
+}
+
+/*图标部分*/
+.ool-icon-box{
+	/*width:1442px;*/					/*注释可自适应*/
+	height:234px;
+	margin:0 auto;
+	margin-top:140px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.ool-icon-box div{
+	width:257px;
+	height:237px;
+}
+.ool-icon-box div img{
+	width:90%;
+}
+
+/*底部充电宝图片*/
+.ool-footer-footBattery{
+	width:31%;
+	margin-right:8%;
+	margin-top:0;
+	float:right;
+}
+
+/*数据表*/
+.ool-data-img{
+	width:29%;
+	margin-top:3%;
+	margin-left:16%;
+}
+
+/*底部文字盒子部分*/
+.ool-footText-box{
+	width:1000px;
+	height:80px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	text-align:center;
+}
+/*底部文字部分*/
+.ool-address-text{
+	font-size:14px;
+}
+.ool-footText-box div{
+	font-size:14px;
+	text-align:center;
+	margin-top:17px;
+}
+
+/*超链接样式*/
+.ool-a:hover{
+	text-decoration:underline !important;
+}
+.ool-a:link{
+	text-decoration:none;
+}
+.ool-a:active{
+	text-decoration:none;
+	color:red !important;
+
+}
+.ool-a:visited{
+	text-decoration:none;
+}
+.ool-a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
